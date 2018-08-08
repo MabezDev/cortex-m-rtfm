@@ -79,7 +79,7 @@
 //! [rtfm]: http://www.diva-portal.org/smash/get/diva2:1005680/FULLTEXT01.pdf
 #![deny(missing_docs)]
 #![deny(warnings)]
-#![feature(proc_macro)]
+#![feature(use_extern_macros)]
 #![no_std]
 
 extern crate cortex_m;
