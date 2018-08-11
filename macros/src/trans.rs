@@ -19,7 +19,7 @@ pub fn app(app: &App, ownerships: &Ownerships) -> TokenStream {
 
     root.push(quote! {
         #[allow(unsafe_code)]
-        fn main() {
+        fn main() -> ! {
             #(#main)*
         }
     });
