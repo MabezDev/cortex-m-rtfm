@@ -11,11 +11,9 @@ version = "0.3.1"
 
 [dependencies]
 failure = "0.1.1"
-# proc-macro2 = "0.4.7"
-proc-macro2 = { version = "0.4", features = ["nightly"] }
+proc-macro2 = "0.4.7"
 quote = "0.6.5"
-# rtfm-syntax = {path= "/home/mabez/development/rust/embedded/util/rtfm-syntax"}
-rtfm-syntax = {git = "https://github.com/mabezdev/rtfm-syntax.git"}
+rtfm-syntax = { git = "https://github.com/mabezdev/rtfm-syntax.git" }
 syn = "0.14.7"
 
 [lib]
