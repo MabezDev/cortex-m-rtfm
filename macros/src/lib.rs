@@ -1,12 +1,9 @@
 //! Procedural macros of the `cortex-m-rtfm` crate
-// #![deny(warnings)]
-#![feature(use_extern_macros)]
+#![deny(warnings)]
 #![feature(proc_macro_gen)]
-#![feature(proc_macro_span)]
+// #![feature(proc_macro_span)]
 #![feature(proc_macro_diagnostic)]
-#![feature(proc_macro_raw_ident)]
-#![feature(procmacro2_semver_exempt)]
-// #![feature(proc_macro)]
+// #![feature(proc_macro_raw_ident)]
 #![recursion_limit = "128"]
 
 #[macro_use]
