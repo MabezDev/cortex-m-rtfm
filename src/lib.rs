@@ -79,7 +79,6 @@
 //! [rtfm]: http://www.diva-portal.org/smash/get/diva2:1005680/FULLTEXT01.pdf
 #![deny(missing_docs)]
 #![deny(warnings)]
-#![feature(proc_macro_gen)]
 
 #![no_std]
 
